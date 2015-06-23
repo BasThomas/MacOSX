@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490EC3D81AF7C8FB0050CD01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EC3D71AF7C8FB0050CD01 /* AppDelegate.swift */; };
+		490EC3DA1AF7C8FB0050CD01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490EC3D91AF7C8FB0050CD01 /* Images.xcassets */; };
+		490EC3DD1AF7C8FB0050CD01 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490EC3DB1AF7C8FB0050CD01 /* MainMenu.xib */; };
+		490EC3E91AF7C8FB0050CD01 /* DiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EC3E81AF7C8FB0050CD01 /* DiceTests.swift */; };
+		490EC3F81AF7C96B0050CD01 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EC3F61AF7C96B0050CD01 /* MainWindowController.swift */; };
+		490EC3F91AF7C96B0050CD01 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490EC3F71AF7C96B0050CD01 /* MainWindowController.xib */; };
+		490EC3FB1AF7C98A0050CD01 /* DieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EC3FA1AF7C98A0050CD01 /* DieView.swift */; };
+		495597EC1B076E4B00ECD2B6 /* NSString+Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495597EB1B076E4B00ECD2B6 /* NSString+Drawing.swift */; };
+		495597F11B08DA8600ECD2B6 /* ConfigurationWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495597EF1B08DA8600ECD2B6 /* ConfigurationWindowController.swift */; };
+		495597F21B08DA8600ECD2B6 /* ConfigurationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495597F01B08DA8600ECD2B6 /* ConfigurationWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		490EC3E31AF7C8FB0050CD01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 490EC3CA1AF7C8FB0050CD01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 490EC3D11AF7C8FB0050CD01;
+			remoteInfo = Dice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		490EC3D21AF7C8FB0050CD01 /* Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		490EC3D61AF7C8FB0050CD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490EC3D71AF7C8FB0050CD01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		490EC3D91AF7C8FB0050CD01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		490EC3DC1AF7C8FB0050CD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		490EC3E21AF7C8FB0050CD01 /* DiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		490EC3E71AF7C8FB0050CD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490EC3E81AF7C8FB0050CD01 /* DiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceTests.swift; sourceTree = "<group>"; };
+		490EC3F61AF7C96B0050CD01 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		490EC3F71AF7C96B0050CD01 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		490EC3FA1AF7C98A0050CD01 /* DieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DieView.swift; sourceTree = "<group>"; };
+		495597EB1B076E4B00ECD2B6 /* NSString+Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Drawing.swift"; sourceTree = "<group>"; };
+		495597EF1B08DA8600ECD2B6 /* ConfigurationWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationWindowController.swift; sourceTree = "<group>"; };
+		495597F01B08DA8600ECD2B6 /* ConfigurationWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigurationWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		490EC3CF1AF7C8FB0050CD01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490EC3DF1AF7C8FB0050CD01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		490EC3C91AF7C8FB0050CD01 = {
+			isa = PBXGroup;
+			children = (
+				490EC3D41AF7C8FB0050CD01 /* Dice */,
+				490EC3E51AF7C8FB0050CD01 /* DiceTests */,
+				490EC3D31AF7C8FB0050CD01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		490EC3D31AF7C8FB0050CD01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				490EC3D21AF7C8FB0050CD01 /* Dice.app */,
+				490EC3E21AF7C8FB0050CD01 /* DiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		490EC3D41AF7C8FB0050CD01 /* Dice */ = {
+			isa = PBXGroup;
+			children = (
+				490EC3D71AF7C8FB0050CD01 /* AppDelegate.swift */,
+				490EC3D91AF7C8FB0050CD01 /* Images.xcassets */,
+				490EC3DB1AF7C8FB0050CD01 /* MainMenu.xib */,
+				490EC3D51AF7C8FB0050CD01 /* Supporting Files */,
+				490EC3F61AF7C96B0050CD01 /* MainWindowController.swift */,
+				490EC3F71AF7C96B0050CD01 /* MainWindowController.xib */,
+				490EC3FA1AF7C98A0050CD01 /* DieView.swift */,
+				495597EB1B076E4B00ECD2B6 /* NSString+Drawing.swift */,
+				495597EF1B08DA8600ECD2B6 /* ConfigurationWindowController.swift */,
+				495597F01B08DA8600ECD2B6 /* ConfigurationWindowController.xib */,
+			);
+			path = Dice;
+			sourceTree = "<group>";
+		};
+		490EC3D51AF7C8FB0050CD01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				490EC3D61AF7C8FB0050CD01 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		490EC3E51AF7C8FB0050CD01 /* DiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				490EC3E81AF7C8FB0050CD01 /* DiceTests.swift */,
+				490EC3E61AF7C8FB0050CD01 /* Supporting Files */,
+			);
+			path = DiceTests;
+			sourceTree = "<group>";
+		};
+		490EC3E61AF7C8FB0050CD01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				490EC3E71AF7C8FB0050CD01 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		490EC3D11AF7C8FB0050CD01 /* Dice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490EC3EC1AF7C8FB0050CD01 /* Build configuration list for PBXNativeTarget "Dice" */;
+			buildPhases = (
+				490EC3CE1AF7C8FB0050CD01 /* Sources */,
+				490EC3CF1AF7C8FB0050CD01 /* Frameworks */,
+				490EC3D01AF7C8FB0050CD01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dice;
+			productName = Dice;
+			productReference = 490EC3D21AF7C8FB0050CD01 /* Dice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		490EC3E11AF7C8FB0050CD01 /* DiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490EC3EF1AF7C8FB0050CD01 /* Build configuration list for PBXNativeTarget "DiceTests" */;
+			buildPhases = (
+				490EC3DE1AF7C8FB0050CD01 /* Sources */,
+				490EC3DF1AF7C8FB0050CD01 /* Frameworks */,
+				490EC3E01AF7C8FB0050CD01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				490EC3E41AF7C8FB0050CD01 /* PBXTargetDependency */,
+			);
+			name = DiceTests;
+			productName = DiceTests;
+			productReference = 490EC3E21AF7C8FB0050CD01 /* DiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		490EC3CA1AF7C8FB0050CD01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Bas Broek";
+				TargetAttributes = {
+					490EC3D11AF7C8FB0050CD01 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					490EC3E11AF7C8FB0050CD01 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 490EC3D11AF7C8FB0050CD01;
+					};
+				};
+			};
+			buildConfigurationList = 490EC3CD1AF7C8FB0050CD01 /* Build configuration list for PBXProject "Dice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 490EC3C91AF7C8FB0050CD01;
+			productRefGroup = 490EC3D31AF7C8FB0050CD01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				490EC3D11AF7C8FB0050CD01 /* Dice */,
+				490EC3E11AF7C8FB0050CD01 /* DiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		490EC3D01AF7C8FB0050CD01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490EC3DA1AF7C8FB0050CD01 /* Images.xcassets in Resources */,
+				490EC3F91AF7C96B0050CD01 /* MainWindowController.xib in Resources */,
+				495597F21B08DA8600ECD2B6 /* ConfigurationWindowController.xib in Resources */,
+				490EC3DD1AF7C8FB0050CD01 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490EC3E01AF7C8FB0050CD01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		490EC3CE1AF7C8FB0050CD01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495597EC1B076E4B00ECD2B6 /* NSString+Drawing.swift in Sources */,
+				490EC3F81AF7C96B0050CD01 /* MainWindowController.swift in Sources */,
+				495597F11B08DA8600ECD2B6 /* ConfigurationWindowController.swift in Sources */,
+				490EC3D81AF7C8FB0050CD01 /* AppDelegate.swift in Sources */,
+				490EC3FB1AF7C98A0050CD01 /* DieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490EC3DE1AF7C8FB0050CD01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490EC3E91AF7C8FB0050CD01 /* DiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		490EC3E41AF7C8FB0050CD01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 490EC3D11AF7C8FB0050CD01 /* Dice */;
+			targetProxy = 490EC3E31AF7C8FB0050CD01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		490EC3DB1AF7C8FB0050CD01 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				490EC3DC1AF7C8FB0050CD01 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		490EC3EA1AF7C8FB0050CD01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		490EC3EB1AF7C8FB0050CD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		490EC3ED1AF7C8FB0050CD01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Dice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		490EC3EE1AF7C8FB0050CD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Dice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		490EC3F01AF7C8FB0050CD01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dice.app/Contents/MacOS/Dice";
+			};
+			name = Debug;
+		};
+		490EC3F11AF7C8FB0050CD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dice.app/Contents/MacOS/Dice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		490EC3CD1AF7C8FB0050CD01 /* Build configuration list for PBXProject "Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490EC3EA1AF7C8FB0050CD01 /* Debug */,
+				490EC3EB1AF7C8FB0050CD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		490EC3EC1AF7C8FB0050CD01 /* Build configuration list for PBXNativeTarget "Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490EC3ED1AF7C8FB0050CD01 /* Debug */,
+				490EC3EE1AF7C8FB0050CD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		490EC3EF1AF7C8FB0050CD01 /* Build configuration list for PBXNativeTarget "DiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490EC3F01AF7C8FB0050CD01 /* Debug */,
+				490EC3F11AF7C8FB0050CD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 490EC3CA1AF7C8FB0050CD01 /* Project object */;
+}

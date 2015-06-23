@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490EC40B1AF7EF270050CD01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EC40A1AF7EF270050CD01 /* AppDelegate.swift */; };
+		490EC40D1AF7EF270050CD01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490EC40C1AF7EF270050CD01 /* Images.xcassets */; };
+		490EC4101AF7EF270050CD01 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490EC40E1AF7EF270050CD01 /* MainMenu.xib */; };
+		490EC41C1AF7EF270050CD01 /* ImageTilingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EC41B1AF7EF270050CD01 /* ImageTilingTests.swift */; };
+		490EC4271AF7EF3A0050CD01 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EC4251AF7EF3A0050CD01 /* MainWindowController.swift */; };
+		490EC4281AF7EF3A0050CD01 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490EC4261AF7EF3A0050CD01 /* MainWindowController.xib */; };
+		490EC42A1AF7EF830050CD01 /* TiledImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EC4291AF7EF830050CD01 /* TiledImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		490EC4161AF7EF270050CD01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 490EC3FD1AF7EF270050CD01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 490EC4041AF7EF270050CD01;
+			remoteInfo = ImageTiling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		490EC4051AF7EF270050CD01 /* ImageTiling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageTiling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		490EC4091AF7EF270050CD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490EC40A1AF7EF270050CD01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		490EC40C1AF7EF270050CD01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		490EC40F1AF7EF270050CD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		490EC4151AF7EF270050CD01 /* ImageTilingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageTilingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		490EC41A1AF7EF270050CD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490EC41B1AF7EF270050CD01 /* ImageTilingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTilingTests.swift; sourceTree = "<group>"; };
+		490EC4251AF7EF3A0050CD01 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		490EC4261AF7EF3A0050CD01 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		490EC4291AF7EF830050CD01 /* TiledImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiledImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		490EC4021AF7EF270050CD01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490EC4121AF7EF270050CD01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		490EC3FC1AF7EF270050CD01 = {
+			isa = PBXGroup;
+			children = (
+				490EC4071AF7EF270050CD01 /* ImageTiling */,
+				490EC4181AF7EF270050CD01 /* ImageTilingTests */,
+				490EC4061AF7EF270050CD01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		490EC4061AF7EF270050CD01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				490EC4051AF7EF270050CD01 /* ImageTiling.app */,
+				490EC4151AF7EF270050CD01 /* ImageTilingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		490EC4071AF7EF270050CD01 /* ImageTiling */ = {
+			isa = PBXGroup;
+			children = (
+				490EC40A1AF7EF270050CD01 /* AppDelegate.swift */,
+				490EC40C1AF7EF270050CD01 /* Images.xcassets */,
+				490EC40E1AF7EF270050CD01 /* MainMenu.xib */,
+				490EC4081AF7EF270050CD01 /* Supporting Files */,
+				490EC4251AF7EF3A0050CD01 /* MainWindowController.swift */,
+				490EC4261AF7EF3A0050CD01 /* MainWindowController.xib */,
+				490EC4291AF7EF830050CD01 /* TiledImageView.swift */,
+			);
+			path = ImageTiling;
+			sourceTree = "<group>";
+		};
+		490EC4081AF7EF270050CD01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				490EC4091AF7EF270050CD01 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		490EC4181AF7EF270050CD01 /* ImageTilingTests */ = {
+			isa = PBXGroup;
+			children = (
+				490EC41B1AF7EF270050CD01 /* ImageTilingTests.swift */,
+				490EC4191AF7EF270050CD01 /* Supporting Files */,
+			);
+			path = ImageTilingTests;
+			sourceTree = "<group>";
+		};
+		490EC4191AF7EF270050CD01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				490EC41A1AF7EF270050CD01 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		490EC4041AF7EF270050CD01 /* ImageTiling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490EC41F1AF7EF270050CD01 /* Build configuration list for PBXNativeTarget "ImageTiling" */;
+			buildPhases = (
+				490EC4011AF7EF270050CD01 /* Sources */,
+				490EC4021AF7EF270050CD01 /* Frameworks */,
+				490EC4031AF7EF270050CD01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageTiling;
+			productName = ImageTiling;
+			productReference = 490EC4051AF7EF270050CD01 /* ImageTiling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		490EC4141AF7EF270050CD01 /* ImageTilingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490EC4221AF7EF270050CD01 /* Build configuration list for PBXNativeTarget "ImageTilingTests" */;
+			buildPhases = (
+				490EC4111AF7EF270050CD01 /* Sources */,
+				490EC4121AF7EF270050CD01 /* Frameworks */,
+				490EC4131AF7EF270050CD01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				490EC4171AF7EF270050CD01 /* PBXTargetDependency */,
+			);
+			name = ImageTilingTests;
+			productName = ImageTilingTests;
+			productReference = 490EC4151AF7EF270050CD01 /* ImageTilingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		490EC3FD1AF7EF270050CD01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Bas Broek";
+				TargetAttributes = {
+					490EC4041AF7EF270050CD01 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					490EC4141AF7EF270050CD01 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 490EC4041AF7EF270050CD01;
+					};
+				};
+			};
+			buildConfigurationList = 490EC4001AF7EF270050CD01 /* Build configuration list for PBXProject "ImageTiling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 490EC3FC1AF7EF270050CD01;
+			productRefGroup = 490EC4061AF7EF270050CD01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				490EC4041AF7EF270050CD01 /* ImageTiling */,
+				490EC4141AF7EF270050CD01 /* ImageTilingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		490EC4031AF7EF270050CD01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490EC40D1AF7EF270050CD01 /* Images.xcassets in Resources */,
+				490EC4281AF7EF3A0050CD01 /* MainWindowController.xib in Resources */,
+				490EC4101AF7EF270050CD01 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490EC4131AF7EF270050CD01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		490EC4011AF7EF270050CD01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490EC4271AF7EF3A0050CD01 /* MainWindowController.swift in Sources */,
+				490EC42A1AF7EF830050CD01 /* TiledImageView.swift in Sources */,
+				490EC40B1AF7EF270050CD01 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490EC4111AF7EF270050CD01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490EC41C1AF7EF270050CD01 /* ImageTilingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		490EC4171AF7EF270050CD01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 490EC4041AF7EF270050CD01 /* ImageTiling */;
+			targetProxy = 490EC4161AF7EF270050CD01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		490EC40E1AF7EF270050CD01 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				490EC40F1AF7EF270050CD01 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		490EC41D1AF7EF270050CD01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		490EC41E1AF7EF270050CD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		490EC4201AF7EF270050CD01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ImageTiling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		490EC4211AF7EF270050CD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ImageTiling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		490EC4231AF7EF270050CD01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImageTilingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageTiling.app/Contents/MacOS/ImageTiling";
+			};
+			name = Debug;
+		};
+		490EC4241AF7EF270050CD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImageTilingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageTiling.app/Contents/MacOS/ImageTiling";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		490EC4001AF7EF270050CD01 /* Build configuration list for PBXProject "ImageTiling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490EC41D1AF7EF270050CD01 /* Debug */,
+				490EC41E1AF7EF270050CD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		490EC41F1AF7EF270050CD01 /* Build configuration list for PBXNativeTarget "ImageTiling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490EC4201AF7EF270050CD01 /* Debug */,
+				490EC4211AF7EF270050CD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		490EC4221AF7EF270050CD01 /* Build configuration list for PBXNativeTarget "ImageTilingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490EC4231AF7EF270050CD01 /* Debug */,
+				490EC4241AF7EF270050CD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 490EC3FD1AF7EF270050CD01 /* Project object */;
+}
